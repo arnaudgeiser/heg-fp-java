@@ -1,8 +1,8 @@
-package ch.hearc.ig;
+package ch.hearc.ig.util;
 
 public class ConsoleWriter {
 
   public void print(String texte) {
-    System.out.print(texte);
+    System.out.println(texte);
   }
 }

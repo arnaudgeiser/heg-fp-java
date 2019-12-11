@@ -1,15 +1,15 @@
-package ch.hearc.ig;
+package ch.hearc.ig.exercice1;
 
-import static ch.hearc.ig.Exercice1.endMessage;
-import static ch.hearc.ig.Exercice1.game;
-import static ch.hearc.ig.Exercice1.getCard;
-import static ch.hearc.ig.Exercice1.getRandomCard;
-import static ch.hearc.ig.Exercice1.nextState;
-import static ch.hearc.ig.Exercice1.player1Strategy;
-import static ch.hearc.ig.Exercice1.player2Strategy;
-import static ch.hearc.ig.Exercice1.shuffle;
-import static ch.hearc.ig.Exercice1.turnMessage;
-import static ch.hearc.ig.Exercice1.without;
+import static ch.hearc.ig.exercice1.Exercice1.endMessage;
+import static ch.hearc.ig.exercice1.Exercice1.game;
+import static ch.hearc.ig.exercice1.Exercice1.getCard;
+import static ch.hearc.ig.exercice1.Exercice1.getRandomCard;
+import static ch.hearc.ig.exercice1.Exercice1.nextState;
+import static ch.hearc.ig.exercice1.Exercice1.player1Strategy;
+import static ch.hearc.ig.exercice1.Exercice1.player2Strategy;
+import static ch.hearc.ig.exercice1.Exercice1.shuffle;
+import static ch.hearc.ig.exercice1.Exercice1.turnMessage;
+import static ch.hearc.ig.exercice1.Exercice1.without;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.mockito.ArgumentMatchers.anyString;
@@ -18,7 +18,8 @@ import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
-import ch.hearc.ig.Exercice1.State;
+import ch.hearc.ig.exercice1.Exercice1.State;
+import ch.hearc.ig.util.ConsoleWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
