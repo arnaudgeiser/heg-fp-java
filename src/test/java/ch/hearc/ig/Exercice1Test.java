@@ -224,7 +224,7 @@ class Exercice1Test {
 
   @Test
   @Order(16)
-  void game_ShouldCall5TimesNextState() {
+  void Game_ShouldCall5TimesNextState() {
     ArgumentCaptor<String> captor = ArgumentCaptor.forClass(String.class);
     doNothing().when(consoleWriter).print(captor.capture());
     game();
