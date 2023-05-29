@@ -54,7 +54,7 @@ public class Exercice {
   /** Stores _doubleNumber inside doubleNumber */
   static Function<Integer, Integer> doubleNumber;
 
-  /** Creates an add5 function from the doubleNumber function (by calling it) */
+  /** Creates an add5 function from the _add function (by calling it) */
   static Function<Integer, Integer> add5;
 
   /**
