@@ -1,7 +1,6 @@
-package ch.hearc.ig.exercice2;
+package ch.hearc.ig.exercice;
 
-import static ch.hearc.ig.exercice2.Exercice2A.*;
-import static ch.hearc.ig.exercice2.Exercice2B.*;
+import static ch.hearc.ig.exercice.Exercice.*;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;
 
@@ -13,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-class Exercice2Test {
+class ExerciceTest {
 
   @Test
   @Order(1)
@@ -52,7 +51,7 @@ class Exercice2Test {
   @DisplayName("I can create a function that close over a variable in its environnement, that's called a closure!")
   void testFindPersonById() {
     var result = findByPersonId(1);
-    assertThat(result.name).isEqualTo("Arnaud");
+    assertThat(result.name()).isEqualTo("Arnaud");
   }
 
   @Test

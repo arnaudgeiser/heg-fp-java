@@ -1,4 +1,4 @@
-package ch.hearc.ig.exercice2.live;
+package ch.hearc.ig.live;
 
 import java.util.ArrayList;
 import java.util.List;
