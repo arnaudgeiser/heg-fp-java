@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class Exercice {
 
-  /* DO NOT ANYTHING ANYTHING FROM THERE .... */
+  /* DO NOT TOUCH ANYTHING FROM THERE UNTIL ... */
 
   static List<Person> peoples = List
       .of(new Person(1, "Arnaud", 29),
@@ -49,7 +49,7 @@ public class Exercice {
     return x + y;
   }
 
-  /* UNTIL THERE ... */
+  /* THERE ... */
 
   /** Stores _doubleNumber inside doubleNumber */
   static Function<Integer, Integer> doubleNumber;

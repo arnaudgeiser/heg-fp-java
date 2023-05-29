@@ -34,7 +34,7 @@ public class Final {
 
   public static void main(String[] args) {
     var list = List.of(1,2,3,4,5);
-    var multipleBy5 = multiplyBy.apply(5);              // First-class function (you can store a function on a variable)
+    var multipleBy5 = multiplyBy.apply(5);             // First-class function (you can store a function in a variable)
     System.out.println(map(list, x -> x * 2));         // Higher-order function with an anonymous function (== lambda function)
     System.out.println(map(list, multipleBy5));        // Higher-order function with a named function (multiplayBy5)
     System.out.println(filter(list, x -> x % 2 == 0)); // Higher-order function with an anonymous function (== lambda function)
